@@ -12,6 +12,11 @@ hr {
   color: #000000;
   background-color: #000000; }
 
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
 a {
   color: #000000;
   text-decoration: underline; }
@@ -42,6 +47,18 @@ img#imageko{
   margin-left:20px;
 }
 
+img#chalet_image{
+  float:none;
+  margin-left:-10px;
+}
+
+iframe#stroke_video{
+  float:none;
+  margin-left:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 1000px) {
   img#imageko{
   float:none;
@@ -54,8 +71,20 @@ img#imageko{
     padding:5px;
 } */
 
-.container {
+.section {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
   max-width: 1200px;
+}
+
+.subsection{
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 2400px;
   margin: 0 25px; }
 
 @media screen and (min-width: 600px) {
@@ -72,7 +101,8 @@ img#imageko{
     margin: 0 120px; } }
 .bio {
   max-width: 500px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-right: 100px; }
 
 .bio__header {
   margin-bottom: 20px;
