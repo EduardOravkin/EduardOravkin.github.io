@@ -61,6 +61,14 @@ iframe#stroke_video{
   max-width: 100%;
 }
 
+iframe#opticycle_video{
+  float:none;
+  margin-left:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
   img#imageko{
   float:none;
