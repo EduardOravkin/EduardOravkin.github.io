@@ -52,8 +52,17 @@ img#chalet_image{
   padding-left:0px;
   padding-right:0px;
 }
-
+/*
 iframe#stroke_video{
+  float:none;
+  margin-left:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 100%;
+}
+*/
+
+iframe#ballers_video{
   float:none;
   margin-left:0px;
   padding-top: 10px;
